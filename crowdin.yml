@@ -1,5 +1,3 @@
 files:
-  - source: '*.pt-BR.yml'
-    translation: /%original_file_name%.%locale%.yml
-     translation_replace:
-      .pt-BR: "" 
+  - source: '*pt-BR.yml'
+    translation: /%file_name%.%locale%.yml
